@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Jpass</string>
+    <string name="prof_name">Username</string>
+    <string name="master_password">Master Password</string>
+    <string name="prof_name_create">Profile username</string>
+    <string name="prof_pw_create_init">Input password here</string>
+    <string name="prof_pw_create_conf">Confirm password</string>
+    <string name="prof_bt_create_confirm">Confirm Profile Creation</string>
+</resources>
