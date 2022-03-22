@@ -1,4 +1,4 @@
-package com.example.jpass;
+package com.example.FYPPasswordManager;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AlertDialog;

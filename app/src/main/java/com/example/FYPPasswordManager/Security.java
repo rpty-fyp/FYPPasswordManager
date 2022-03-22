@@ -1,4 +1,4 @@
-package com.example.jpass;
+package com.example.FYPPasswordManager;
 
 
 import android.os.Build;

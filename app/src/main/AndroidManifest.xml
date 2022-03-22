@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.jpass">
+    package="com.example.FYPPasswordManager">
 
     <application
         android:allowBackup="true"
@@ -10,27 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Jpass">
         <activity
-            android:name=".HelpActivity"
+            android:name="com.example.FYPPasswordManager.HelpActivity"
             android:exported="false"
-            android:parentActivityName=".LoginActivity" />
+            android:parentActivityName="com.example.FYPPasswordManager.LoginActivity" />
         <activity
-            android:name=".ChangeProfilePassword"
+            android:name="com.example.FYPPasswordManager.ChangeProfilePassword"
             android:exported="false" />
         <activity
-            android:name=".EntryUpdate"
+            android:name="com.example.FYPPasswordManager.EntryUpdate"
             android:exported="false" />
         <activity
-            android:name=".EntryAddOne"
+            android:name="com.example.FYPPasswordManager.EntryAddOne"
             android:exported="false" />
         <activity
-            android:name=".EntryList"
+            android:name="com.example.FYPPasswordManager.EntryList"
             android:exported="false" />
         <activity
-            android:name=".CreateProfileActivity"
+            android:name="com.example.FYPPasswordManager.CreateProfileActivity"
             android:exported="false"
-            android:parentActivityName=".LoginActivity" />
+            android:parentActivityName="com.example.FYPPasswordManager.LoginActivity" />
         <activity
-            android:name=".LoginActivity"
+            android:name="com.example.FYPPasswordManager.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -39,7 +39,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.FYPPasswordManager.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,4 +1,4 @@
-package com.example.jpass;
+package com.example.FYPPasswordManager;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
@@ -52,6 +52,7 @@ public class EntryAddOne extends AppCompatActivity {
         }
 
         bt_passGen.setOnClickListener(new View.OnClickListener() {
+            @RequiresApi(api = Build.VERSION_CODES.N)
             @Override
             public void onClick(View view) {
 
